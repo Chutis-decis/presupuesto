@@ -5,7 +5,7 @@
         <div class="card">
             <div class="card-body">
                 <div *ngIf="cantidadIncorrecta" class="text-center mb-3">
-                    <span class="badge bg-danger textError">EL PRESUPUESTO DEBE SER MAYOR A CERO</span>
+                    <span class="badge bg-danger textError">EL PRESUPUESTO DEBE SER MAYOR A Uno</span>
                 </div>
                 <input type="number" [(ngModel)] = "cantidad" class="form-control form-control-lg" placeholder="Ingresa tu Presupuesto">
                 <button class="btn btn-secondary btn-lg btn-block mt-2" (click)="agregar()">ACEPTAR</button>
